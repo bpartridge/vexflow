@@ -10,3 +10,6 @@ ruby_sess.*
 # except foo.o which is hand maintained
 !foo.o
 .DS_Store
+node_modules
+tests/output
+.sconsign.dblite
