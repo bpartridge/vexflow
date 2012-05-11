@@ -11,5 +11,6 @@ ruby_sess.*
 !foo.o
 .DS_Store
 node_modules
+npm-debug.log
 tests/output
 .sconsign.dblite

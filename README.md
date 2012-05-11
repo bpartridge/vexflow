@@ -46,6 +46,22 @@ Quiet build:
 
     $ scons -Q
 
+Open `tests/flow.html` for QUnit unit tests.
+
+## Node.js Integration
+
+Vex Flow can also be run outside the browser using Node.js.
+Install dependencies with `npm install` here, then to use it,
+`npm link` in this repository
+then add "vexflow" as a dependency in your package.json.
+Your system must have Cairo installed; see 
+[here](https://github.com/LearnBoost/node-canvas#installation) for details.
+
+For a usage example, see `tests/nodejsdemo.js` and run it 
+with `node tests/nodejsdemo.js`.
+To run QUnit unit tests, run `node tests/nodejsrunner.js`.
+Rendered images from the unit tests can be found in `tests/output`.
+
 ## Links
 
 The site: http://www.vexflow.com
