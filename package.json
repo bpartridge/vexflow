@@ -5,7 +5,7 @@
   "author": "Mohit Muthanna Cheppudira",
   "keywords": ["music","notation","render","canvas"],
   "dependencies": {
-    "canvas": "0.12.x",
+    "canvas": "https://github.com/bpartridge/node-canvas-heroku/tarball/master",
     "jsdom": "0.2.x"
   },
   "repository": {
