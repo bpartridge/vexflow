@@ -1,3 +1,6 @@
+// This is not the test runner! 
+// To execute tests, do `node tests/nodejsrunner.js`.
+
 var fs = require('fs');
 var vm = require('vm');
 
@@ -73,7 +76,6 @@ Vex.Flow.Test.TabSlide.Start();
 Vex.Flow.Test.Beam.Start();
 Vex.Flow.Test.Vibrato.Start();
 Vex.Flow.Test.Annotation.Start();
-Vex.Flow.Test.VexTab.Start();
 Vex.Flow.Test.Tuning.Start();
 Vex.Flow.Test.Music.Start();
 Vex.Flow.Test.KeyManager.Start();
@@ -82,6 +84,7 @@ Vex.Flow.Test.StaveConnector.Start();
 Vex.Flow.Test.Percussion.Start();
 Vex.Flow.Test.ClefKeySignature.Start();
 Vex.Flow.Test.StaveHairpin.Start();
+Vex.Flow.Test.VexTab.Start();
 
 // Now export all canvases
 QUnit.done(function() {

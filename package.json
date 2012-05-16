@@ -12,11 +12,15 @@
     "type": "git",
     "url": "https://github.com/0xfe/vexflow.git"
   },
+  "scripts": {
+    "preinstall": "./build.sh",
+    "test": "node ./tests/nodejsrunner.js; node ./tests/nodejsdemo.js"
+  },
   "devDependencies": {
     "jquery": ">=1.4.2",
     "qunit": "0.5.x",
     "mkdirp": "*"
   },
-  "main": "./src/nodejswrapper.js",
+  "main": "./build/vexflow/vexflow-node.js",
   "license": "MIT"
 }
